@@ -1,0 +1,22 @@
+//almacenando una funcion en una variable o constante
+const imprimirSuma = function(a, b){
+    console.log(a+b)
+}
+
+imprimirSuma(2,3)
+
+//almacenando una funcion arrow en una variable o constante
+const suma = (a,b) => {
+    return a+b;
+}
+
+console.log(suma(2,3))
+
+// retorno implicito
+const substraccion = (a,b) => a-b
+
+console.log(substraccion(3,3))
+
+const imprimir = a => console.log(a)
+
+imprimir('Bem vindo!')
